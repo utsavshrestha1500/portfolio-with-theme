@@ -1,0 +1,40 @@
+
+.testimonials_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
+}
+.testimonials_image img {
+    height: 2rem;
+    width: 2rem;
+    border-radius: var(--border-radius-3);
+}
+
+
+.testimonials_details p {
+    font-size: 0.7rem;
+}
+
+.testimonials_details h5 {
+    font-size: 0.7rem;
+}
+
+.description p {
+    font-size: 0.8rem;
+    margin-bottom: 1.2rem;
+}
+.testimonials_char {
+    display: flex;
+    gap: 1rem;
+}
+
+.swiper-pagination {
+    bottom: 0;
+}
+
+@media screen and (max-width:1024px) {
+    
+
+   
+}
